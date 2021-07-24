@@ -1,10 +1,48 @@
 import './style.scss';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 
-function App() {
+import Navbar from './components/navbar/navbar'
+import Home from './views/home'
+import About from './views/about';
+import Contact from './views/contact';
+import Projects from './views/projects';
+import Skills from './views/skills';
+
+const App = () => {
   return (
-    <div className="App">
-      <h1> HeLlO WoRlD</h1>
-    </div>
+    <Router>
+      <div className="App">
+        
+
+        <Switch>
+          <Route path="/about">
+            <About />
+          </Route>
+
+          <Route path="/contact">
+            <Contact />
+          </Route>
+
+          <Route path="/Projects">
+            <Projects />
+          </Route>
+
+          <Route path="/skills">
+            <Skills />
+          </Route>
+
+          <Route path="/">
+            <Home />
+          </Route>
+
+        </Switch>
+        <Navbar />
+      </div>
+    </Router>
   );
 }
 
