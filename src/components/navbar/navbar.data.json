@@ -1,0 +1,10 @@
+{
+    "title": "Martin Stiles",
+    "routes": [
+        {"value": "Hi!", "route": "/"},
+        {"value": "About", "route": "/about"},
+        {"value": "Skills", "route": "/skills"},
+        {"value": "Projects", "route": "/projects"},
+        {"value": "Contact", "route": "/contact"}
+    ]
+}
