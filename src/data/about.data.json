@@ -1,0 +1,47 @@
+{
+    "tags": ["Frisbeegolf", "Bouldering", "Sushi", "Smash Bros", "NLP", "Philosophy", "Calisthenics", "Marvel"],
+    "education": {
+        "title": "Computer Science — NTNU",
+        "duration": "(2017 — 2022)",
+        "description": "A 5 years integrated master's degree at the Norwegian University of Science and Technology. I'm specializing in database systems, search engines and AI. I will finish the degree in spring 2022."
+    },
+    "itCompanies": [
+        {
+            "company": "capgemini",
+            "job_title": "",
+            "duration": ""
+        },
+        {
+            "company": "strise",
+            "job_title": "",
+            "duration": ""
+        },
+        {
+            "company": "ntnu",
+            "job_title": "",
+            "duration": ""
+        }
+    ],
+    "otherCompanies": [
+        {
+            "company": "ntnu",
+            "job_title": "",
+            "duration": ""
+        },
+        {
+            "company": "foodora",
+            "job_title": "",
+            "duration": ""
+        },
+        {
+            "company": "me",
+            "job_title": "",
+            "duration": ""
+        },
+        {
+            "company": "army",
+            "job_title": "",
+            "duration": ""
+        }
+    ]
+}

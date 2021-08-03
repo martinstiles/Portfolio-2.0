@@ -1,0 +1,20 @@
+{
+    "linkObjects": [
+        {
+            "name": "mail",
+            "link": "mailto:martin.stiles@live.no"
+        },
+        {
+            "name": "linkedin",
+            "link": "https://www.linkedin.com/in/martin-stiles-39b662171/"
+        },
+        {
+            "name": "facebook",
+            "link": "https://www.facebook.com/martin.stiles.9/"
+        },
+        {
+            "name": "github",
+            "link": "https://github.com/martinstiles"
+        }
+    ]
+}

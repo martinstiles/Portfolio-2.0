@@ -1,0 +1,10 @@
+{
+    "title": "M.Stiles",
+    "routes": [
+        {"value": "Hi!", "route": "/"},
+        {"value": "About", "route": "/about/"},
+        {"value": "Skills", "route": "/skills/"},
+        {"value": "Projects", "route": "/projects/1/"},
+        {"value": "Contact", "route": "/contact/"}
+    ]
+}
