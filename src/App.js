@@ -16,7 +16,9 @@ const App = () => {
   return (
     <Router>
       <div className="App">
-        
+        <div>
+          <Navbar />
+        </div>
 
         <Switch>
           <Route path="/about">
@@ -40,7 +42,6 @@ const App = () => {
           </Route>
 
         </Switch>
-        <Navbar />
       </div>
     </Router>
   );
