@@ -1,0 +1,24 @@
+@import "../../static/variables";
+
+.contact-link {
+    width: calc(5em + 5vw);
+    margin: 0 2em;
+}
+
+.contact-icon {
+    width: calc(5em + 5vw);
+}
+.contact-icon:hover {
+    transition: 0.3s ease;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: $phone-width) {
+    .contact-link {
+        margin: 1em 0;
+    }
+
+    .contact-icon {
+        width: 100px;
+    }
+}
