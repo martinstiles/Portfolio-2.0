@@ -1,0 +1,39 @@
+@import "../../../static/variables";
+
+.button-group {
+    margin-top: 0.5em;
+    margin-bottom: 4em;
+}
+
+.active-button {
+    padding: 7px 10px;
+    margin: 0 0.5em;
+    border: none;
+    border-radius: 5%;
+    background-color: $orange;
+}
+
+.active-button:hover {
+    transition: 0.2s ease;
+    background-color: $orange-dark;
+    transform: scale(1.1);
+}
+
+.inactive-button {
+    padding: 7px 10px;
+    margin: 0 0.5em;
+    border: none;
+    border-radius: 5%;
+    background-color: #aaa;
+}
+
+@media screen and (max-width: $phone-width) {
+    .button-group {
+        margin-bottom: 2em;
+    }
+
+    .active-button:hover {
+        background-color: $orange;
+        transform: none;
+    }
+}
