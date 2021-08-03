@@ -1,0 +1,60 @@
+@import "../../../static/variables";
+
+.experience-container {
+    width: 50%;
+}
+
+.margin-bottom {
+    margin-bottom: 3em;
+}
+
+.education-container {
+    max-width: 85%;
+    width: 700px;
+}
+
+.title {
+    text-decoration: overline;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.see-more {
+    color: #555555;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.company-logo {
+    opacity: 0.9;
+    max-width: 70px;
+    width: 15%;
+    margin-right:15px;
+    border-radius: 26%;
+    background-color: white;
+    box-shadow: -3px 3px rgba(0, 0, 0, 0.7);
+    transition: all 0.1s ease;
+}
+.company-logo:hover {
+    box-shadow: -6px 6px rgba(0, 0, 0, 0.7);
+    transform: translate(3px, -3px) rotate(0deg);
+}
+
+@media screen and (max-width: $phone-width) {
+    .experience-container {
+        width: 90%;
+        margin-top: 2.5em;
+    }
+
+    .margin-bottom {
+        margin-bottom: 2em;
+    }
+
+    .education-container {
+        max-width: 100%;
+        width: 100%;
+    }
+}
