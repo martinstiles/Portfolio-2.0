@@ -1,39 +1,113 @@
 @import "../../static/_variables.scss";
 
 .navbar {
+    position: relative;
+    z-index: 1000;
     width: 100%;
     height: 100px;
-    margin-top: 0.5em;
-    padding: 0 5em;
+    max-width: 1650px;
+    margin: 0 auto;
+    padding: 0 3em;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: $background-color;
 
     h1 {
-        background: -webkit-linear-gradient(45deg, $orange, $orange-light);
+        font-size: calc(1.7em + 1.1vw);;
+        background: -webkit-linear-gradient(45deg, $orange-dark, $orange-light);
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
+        
     }
 
     ul {
-        width: 40em;
+        display: block;
+        width: 35em;
+        max-width: 50%;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         list-style: none;
     }
+
+    .dropdown-container {
+        display: none;
+    }
 }
 
-.navbar-link-container {
-    padding: 4px 10px;
-
-}
-
-.navbar-link {
+.navbar-link-base {
+    font-size: calc(1em + 0.6vh);
     color: $main-text-color;
     text-decoration: none;
-    font-size: 1.4em;
     font-weight: 500;
-    
+
+    transition: all 0.1s ease-in;
 }
 
+.navbar-link-highlighted {
+    background-color: $orange; // TODO: find a better color?
+    border-radius: 3px;
+    padding: 4px 10px;
+}
+
+.active-navbar-link {
+    @extend .navbar-link-base, .navbar-link-highlighted;
+}
+
+.inactive-navbar-link {
+    @extend .navbar-link-base;
+
+    &:hover {
+        @extend .navbar-link-highlighted;
+    }
+}
+
+@media screen and (max-width: $phone-width) {
+    .navbar {
+        padding: 0 0;
+        width: 90%;
+
+        ul {
+            display: none;
+        }
+
+        .dropdown-container {
+            display: block;
+
+            button {
+                background-color: $background-color;
+                border: none;
+    
+                img {
+                    width: calc(1.5em + 2vw);
+                }
+            }
+    
+            div {
+                display: none;
+                position: absolute;
+                min-width: 80px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                background-color: $background-color;
+                transform: translate(-60px,0);
+    
+                .dropdown-link {
+                    color: black;
+                    padding: 1em;
+                    text-decoration: none;
+                    display: block;
+                }
+                .dropdown-link:hover {
+                    background-color: $orange;
+                }
+            }
+        }
+        .dropdown-container:hover {
+            // z-index: 100;
+            div {
+                display: block;
+            }
+        }
+    }
+}
