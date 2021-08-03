@@ -2,7 +2,7 @@
   "name": "portfolio-2.0",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://martinstiles.github.io/",
+  "homepage": "https://martinstiles.github.io/Portfolio-2.0/",
   "dependencies": {
     "animate.css": "^4.1.1",
     "node-sass": "^6.0.1",

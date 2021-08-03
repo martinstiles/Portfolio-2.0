@@ -14,7 +14,7 @@ const Projects = () => {
     const currentProject = Data.projectObjects[projectIndex - 1]  // cuz it's 1-indexed
 
     return (
-        <div className="main-container-top">
+        <div className="main-container-top animate__animated animate__fadeIn">
             <div className="projects-container">
                 <h3> {projectIndex} / {numProjects} </h3>
                 <ProjectNavButtons

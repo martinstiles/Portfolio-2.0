@@ -9,13 +9,13 @@ const ProjectNavButtons = ({ projectIndex, setProjectIndex, numProjects }) => {
 
     const leftClick = () => {
         if (projectIndex <= 1) return
-        history.push(`/projects/${projectIndex - 1}/`)
+        history.push(`/Portfolio-2.0/projects/${projectIndex - 1}/`)
         setProjectIndex(projectIndex - 1)
     }
 
     const rightClick = () => {
         if (projectIndex >= numProjects) return
-        history.push(`/projects/${projectIndex + 1}/`)
+        history.push(`/Portfolio-2.0/projects/${projectIndex + 1}/`)
         setProjectIndex(projectIndex + 1)
     }
 

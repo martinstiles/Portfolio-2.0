@@ -8,7 +8,7 @@ const Navbar = () => {
     const location = useLocation()
 
     const getNavbarLinkClass = (route) => {
-        if (route === "/projects/1/" && location.pathname.split("/")[1] === "projects") {
+        if (route === "/Portfolio-2.0/projects/1/" && location.pathname.split("/")[2] === "projects") {
             return "active-navbar-link"
         }
         else {

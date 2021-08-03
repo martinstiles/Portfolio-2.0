@@ -1,10 +1,10 @@
 {
     "title": "M.Stiles",
     "routes": [
-        {"value": "Hi!", "route": "/"},
-        {"value": "About", "route": "/about/"},
-        {"value": "Skills", "route": "/skills/"},
-        {"value": "Projects", "route": "/projects/1/"},
-        {"value": "Contact", "route": "/contact/"}
+        {"value": "Hi!", "route": "/Portfolio-2.0/"},
+        {"value": "About", "route": "/Portfolio-2.0/about/"},
+        {"value": "Skills", "route": "/Portfolio-2.0/skills/"},
+        {"value": "Projects", "route": "/Portfolio-2.0/projects/1/"},
+        {"value": "Contact", "route": "/Portfolio-2.0/contact/"}
     ]
 }

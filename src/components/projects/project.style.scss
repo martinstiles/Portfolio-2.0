@@ -1,8 +1,7 @@
 @import "../../static/variables";
 
 .project-container {
-    // width: 70%;
-    // padding: 0 calc(1em + 4vw);
+    width: 100%;
     display: flex;
     flex-direction: row;
 }
@@ -11,12 +10,12 @@
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     // margin-right: 10%;
 }
 
-.project-image { 
+.project-image {
     border-radius: 5px;
     box-shadow: -4px 4px rgba(0, 0, 0, 0.7);
     width: calc(10em + 13vw);

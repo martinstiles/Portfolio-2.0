@@ -14,7 +14,7 @@ const Project = ({ name, description, link, tags }) => {
     }
 
     return (
-        <div className="project-container animate__animated animate__fadeIn">
+        <div className="project-container">
             <div className="project-image-container">
                 <img src={nameToImgMap[name]} alt="" className="project-image" />
                 {
