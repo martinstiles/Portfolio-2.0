@@ -1,0 +1,12 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Mail">
+<path id="bg" d="M84.375 0H15.625C6.99555 0 0 6.99555 0 15.625V84.375C0 93.0044 6.99555 100 15.625 100H84.375C93.0044 100 100 93.0044 100 84.375V15.625C100 6.99555 93.0044 0 84.375 0Z" fill="url(#paint0_linear)"/>
+<path id="Vector" d="M70 32H30C27.25 32 25.025 33.9688 25.025 36.375L25 62.625C25 65.0312 27.25 67 30 67H70C72.75 67 75 65.0312 75 62.625V36.375C75 33.9688 72.75 32 70 32ZM70 40.75L50 51.6875L30 40.75V36.375L50 47.3125L70 36.375V40.75Z" fill="white"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="5" y1="5" x2="94.5" y2="93.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#574156" stop-opacity="0.92"/>
+<stop offset="1" stop-color="#F48681"/>
+</linearGradient>
+</defs>
+</svg>
