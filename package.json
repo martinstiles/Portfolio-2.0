@@ -2,7 +2,9 @@
   "name": "portfolio-2.0",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://martinstiles.github.io/",
   "dependencies": {
+    "animate.css": "^4.1.1",
     "node-sass": "^6.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -11,11 +13,16 @@
     "web-vitals": "^1.1.2"
   },
   "devDependencies": {
-    "eslint-plugin-react": "^7.24.0"
+    "eslint-plugin-react": "^7.24.0",
+    "file-loader": "^6.2.0",
+    "gh-pages": "^3.2.3",
+    "url-loader": "^4.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
