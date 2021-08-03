@@ -1,0 +1,96 @@
+@import "../../../static/variables";
+
+// ANIMATIONS FOR HOME PAGE
+
+@keyframes appear {
+    0% { opacity: 0; }
+    99% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes fade-in {
+    0% { opacity: 0; }
+    80% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+// variable for pause between letters
+$letter-pause: 0.1;
+
+// "Hi there"
+$base-delay1: 0.5;
+#l1 {
+    animation: appear $base-delay1+$letter-pause*0s linear;
+}
+#l2 {
+    animation: appear $base-delay1+$letter-pause*1s linear;
+}
+#l3 {
+    animation: appear $base-delay1+$letter-pause*2s linear;
+}
+#l4 {
+    animation: appear $base-delay1+$letter-pause*3s linear;
+}
+#l5 {
+    animation: appear $base-delay1+$letter-pause*4s linear;
+}
+#l6 {
+    animation: appear $base-delay1+$letter-pause*5s linear;
+}
+
+// "I'm"
+$base-delay2: 2;
+#l7 {
+    animation: appear $base-delay2+$letter-pause*0s linear;
+}
+#l8 {
+    animation: appear $base-delay2+$letter-pause*1s linear;
+}
+#l9 {
+    animation: appear $base-delay2+$letter-pause*2s linear;
+}
+
+// "Martin Stiles"
+$base-delay3: 0.4+1.25*$base-delay2+$letter-pause*2; // 1 / 80% = 1.25 --> To match the animation of last letter
+.name {
+    background-color: #F7941D;
+    padding: 0 13px;
+    border-radius: 5px;
+    animation: fade-in $base-delay3*1s linear;
+}
+
+// Sentences
+$sentence-pause: 1.5;
+#s1 {
+    animation: fade-in $base-delay3+$sentence-pause*1s linear;
+}
+#s2 {
+    animation: fade-in $base-delay3+$sentence-pause*2s linear;
+}
+#s3 {
+    animation: fade-in $base-delay3+$sentence-pause*3s linear;
+}
+
+
+// Container
+@keyframes slide-left {
+    0% { transform: translate(115%, 0) rotate(0deg); }
+    85% { transform: translate(115%, 0); }
+    96% { transform: translate(0,0) rotate(0deg)}
+    98% { transform: rotate(-4deg); transform-origin: bottom left; }
+    100% { transform: rotate(0deg); }
+}
+
+.hi-container {
+    margin-bottom: 20px;
+    animation: slide-left $base-delay3+$sentence-pause*3.5s linear;
+    transform: translate(0, 0);
+}
+
+@media screen and (max-width: $phone-width) {
+    .hi-container {
+        animation: none;
+        // margin-top: 10%;
+        margin-bottom: 50px;
+    }
+}
