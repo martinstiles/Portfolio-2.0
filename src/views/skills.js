@@ -3,7 +3,7 @@ import '../style.scss'
 
 const Skills = () => {
     return (
-        <div className="container">
+        <div className="main-container">
             <h1> Skills </h1>
         </div>
     )
