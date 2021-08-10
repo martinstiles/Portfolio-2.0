@@ -1,6 +1,6 @@
 import React from 'react'
 // import WalkingSVG from "../../../static/walking_svg.svg"
-import "./landingPageSVG.scss"
+import "./landingPageSVG.style.scss"
 
 const LandingPageSVG = () => {
     // TODO: Smaller marginLeft for smaller screens! (media query)

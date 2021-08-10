@@ -2,13 +2,16 @@
 @import "../../../static/variables";
 
 .svg-container {
-    margin-left: 200px;
+    margin-left: 14vw;
     animation: fade-in $base-delay3+$sentence-pause*5s linear;
 }
 
+// .landing-page-svg {
+//     width: 500px;
+//     height: 100%;
+// }
 .landing-page-svg {
-    width: 500px;
-    height: 100%;
+    width: calc(15em + 15vw);
 }
 
 
@@ -228,6 +231,17 @@ $rotation: 6;
     }
 }
 
+
+@media screen and (max-width: $ipad-width) {    
+    .svg-container {
+        margin-left: 120px;
+        animation: fade-in $base-delay3+$sentence-pause*5s linear;
+    }
+
+    .landing-page-svg {
+        width: calc(15em + 15vw);
+    }
+}
 
 @media screen and (max-width: $phone-width) {
     .svg-container {
