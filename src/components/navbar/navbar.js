@@ -7,14 +7,16 @@ import DropdownSVG from "../../static/dropdown.svg"
 const Navbar = () => {
     const location = useLocation()
 
-    const getNavbarLinkClass = (route) => {
+    const isCurrentRoute = (route) => {
         if (route === "/Portfolio-2.0/projects/1/" && location.pathname.split("/")[2] === "projects") {
-            return "active-navbar-link"
+            return true
         }
-        else {
-            return route === location.pathname ? "active-navbar-link" : "inactive-navbar-link"
-        }
+        return route === location.pathname
     }
+
+    const getNavbarLinkClass = (route) => isCurrentRoute(route) ? "active-navbar-link" : "inactive-navbar-link"
+
+    const getDropdownLinkClass = (route) => isCurrentRoute(route) ? "active-dropdown-link" : "inactive-dropdown-link"
 
     return (
         <div className="navbar animate__animated animate__fadeInDown">
@@ -36,7 +38,7 @@ const Navbar = () => {
                 <div>
                     {
                         Data["routes"].map(({value, route}) =>
-                            <Link className="dropdown-link" to={route}> { value } </Link>
+                            <Link className={getDropdownLinkClass(route)} to={route}> { value } </Link>
                         )
                     }
                 </div>

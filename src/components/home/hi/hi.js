@@ -2,10 +2,6 @@ import React from 'react'
 import "./hi.style.scss"
 
 const Hi = () => {
-    // In case the animations should be turned off after the first time
-    // const isNewSession = () => true //sessionStorage.getItem('isNewSession') !== "false"  -  {isNewSession() ? "l1" : ""}
-    // sessionStorage.setItem('isNewSession', "false");
-
     return (
         <div className="hi-container">
             <h1>

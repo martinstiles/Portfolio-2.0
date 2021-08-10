@@ -63,7 +63,8 @@ body::-webkit-scrollbar-thumb {
     @extend .flex-center;
     width: 100%;
     min-height: calc(100vh - 100px);
-    padding: 2em 5em 10% 3em;
+    padding: 3em;
+    padding-bottom: 100px;
     overflow: scroll;
     transition: all 0.1s ease-in;
 }
@@ -99,9 +100,18 @@ body::-webkit-scrollbar-thumb {
 }
 
 
+@media screen and (max-width: $ipad-width) {
+    .main-container {
+        padding-top: 12vh;
+        align-items: flex-start;
+        min-height: none;
+    }
+}
+
 @media screen and (max-width: $phone-width) {
     .main-container {
         flex-direction: column;
+        align-items: center;
         padding: 0em 1em 3em 1em;
     }
 

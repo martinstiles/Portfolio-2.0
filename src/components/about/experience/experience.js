@@ -31,7 +31,6 @@ const Experience = ({education, itCompanies, otherCompanies}) => {
                 <h2 className="title"> EDUCATION </h2>
                 <div className="space-between">
                     <h3> { education.title } </h3>
-                    <h3>  </h3>
                 </div>
                 <p> { education.description } </p>
             </section>
