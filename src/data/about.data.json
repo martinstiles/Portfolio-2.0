@@ -8,40 +8,64 @@
     "itCompanies": [
         {
             "company": "capgemini",
-            "job_title": "",
-            "duration": ""
+            "name": "Capgemini",
+            "job_title": "Software Developer Intern",
+            "duration": "June 2021 — August 2021",
+            "description": "**coming soon**",
+            "link": "https://www.capgemini.com/no-no/",
+            "technologies": ["Figma", "Razor Pages", "CSS", "Episerver CMS"]
         },
         {
             "company": "strise",
-            "job_title": "",
-            "duration": ""
+            "name": "Strise",
+            "job_title": "Software Developer Intern",
+            "duration": "January 2020 — July 2020",
+            "description": "Interning as a front end developer. Strise aims to revolutionize enterprise software, and being a part of the team was a unique experience. I worked part time alongside my studies until May, and then continued as an intern during summer. My tasks naturally included a lot of bug squashing and refactoring, but also implementing new features and creating internal tools for efficiency. An example is making a Slack bot to add previews for links to the Strise products. You can read about that and more in a blogpost I wrote for Strise at this link.",
+            "link": "https://strise.ai/",
+            "technologies": ["React", "TypeScript", "CSS", "GraphQL", "Git", "HER!", "React", "TypeScript", "CSS", "GraphQL", "Git"]
         },
         {
             "company": "ntnu",
-            "job_title": "",
-            "duration": ""
+            "name": "NTNU",
+            "job_title": "Learning Assistant",
+            "duration": "January 2020 — May 2020",
+            "description": "Student assistant in the course TDT4145: Data Modelling and Database Systems. It was a great joy helping other students professionally. I often ended up spending more time than I was paid for, just for the fun of it.",
+            "link": "https://www.ntnu.no/idi",
+            "technologies": []
         }
     ],
     "otherCompanies": [
         {
             "company": "ntnu",
-            "job_title": "",
-            "duration": ""
+            "name": "NTNU",
+            "job_title": "Teaching Mentor",
+            "duration": "Oktober 2020 - August 2021",
+            "description": "Mentoring a student with a functional disability in the courses TMA4145 - Discrete Mathematics and TDT4113 - Programming Project.",
+            "link": "https://innsida.ntnu.no/veiledning"
         },
         {
             "company": "foodora",
-            "job_title": "",
-            "duration": ""
+            "name": "Foodora",
+            "job_title": "Rider",
+            "duration": "March 2019 - November 2019",
+            "description": "Food delivery cyclist. A mix of exercise and income was a great combination for a part time job alongside the studies.",
+            "link": "https://www.foodora.com/"
         },
         {
             "company": "me",
-            "job_title": "",
-            "duration": ""
+            "name": "Me",
+            "job_title": "Bartender",
+            "duration": "June 2018 - July 2019",
+            "description": "Working part time as a bartender was a really fun experiece. And besides, being good at making drinks is a \"surprisingly\" useful skill.",
+            "link": "https://www.facebook.com/menightclub/"
         },
         {
             "company": "army",
-            "job_title": "",
-            "duration": ""
+            "name": "Norwegian Army",
+            "job_title": "Tactical Command Assistant",
+            "duration": "July 2016 - July 2017",
+            "description": "One year in the Norwegian Air Defence Battalion, honing both self discipline and communication skills.",
+            "link": "https://www.forsvaret.no/om-forsvaret/organisasjon/luftforsvaret"
         }
     ]
 }

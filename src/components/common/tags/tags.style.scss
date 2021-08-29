@@ -8,11 +8,11 @@
 
 .tag {
     font-size: calc(0.6em + 0.8vw);
-    margin: 0 14px 16px 0; // --> Bare ha på høyre of under
+    margin: 0 14px 16px 0;
     padding: 2px 7px;
     border-radius: 3px;
     background-color: $green;
-    box-shadow: -3px 3px rgba(0, 0, 0, 0.7);
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 2px 6px;
 }
 
 @media screen and (max-width: $phone-width) {

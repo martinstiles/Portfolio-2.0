@@ -12,31 +12,28 @@ html {
     font-family: $font-heebo;
     font-size: 16px;
     background-color: $background-color;
-    color: black;
+    color: $main-text-color;
 }
 
 h1 {
-    font-size: calc(1em + 1.5vw);
+    font-size: $h1-size;
     font-weight: 400;
 }
 
 h2 {
-    // font-size: 1.9em;
-    font-size: calc(1em + 1vw);
+    font-size: $h2-size;
     font-weight: 400;
 }
 
 h3 {
-    font-size: calc(0.9em + 0.5vw);
+    font-size: $h3-size;
     font-weight: 400;
 }
 
 p {
-    font-size: calc(0.8em + 0.4vw);
+    font-size: $p-size;
     font-weight: 300;
 }
-
-// .App {}
 
 
 // Custom scrollbar
@@ -120,6 +117,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .about-container {
+        margin-top: 0;
         width: 90%;
 
         .about-tag-container {

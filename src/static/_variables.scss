@@ -1,15 +1,24 @@
 // GLOBAL SCSS VARIABLES
 
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
 //@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
-
 
 // Fonts
 $font-heebo: 'Heebo', sans-serif;
+$font-libre: 'Libre Baskerville', serif;
+
+// Font sizes
+$h1-size: calc(1em + 1.5vw);
+$h2-size: calc(1em + 1vw);
+$h2-5-size: calc(0.9em + 0.7vw);
+$h3-size: calc(0.9em + 0.5vw);
+$p-size: calc(0.8em + 0.4vw);
 
 
 // Colors
 $main-text-color: #222;
+$weak-text-color: #555;
 $background-color: #EFEAE2;
 $orange: #F7941D;
 $orange-light: #e0a491;

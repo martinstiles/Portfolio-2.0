@@ -25,7 +25,7 @@ const Project = ({ name, description, link, tags }) => {
             <div className="text-and-tags-container">
                 <h2> {name.toUpperCase()} </h2>
                 <p> { description } </p>
-                <Tags tags={tags} noAnimation={true}/>
+                <Tags tags={tags}/>
             </div>
         </div>
     )

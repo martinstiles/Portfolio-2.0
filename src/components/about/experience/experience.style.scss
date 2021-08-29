@@ -23,25 +23,11 @@
 }
 
 .see-more {
-    color: #555555;
+    color: $weak-text-color;
     font-style: italic;
     margin-bottom: 10px;
 }
 
-.company-logo {
-    opacity: 0.9;
-    max-width: 70px;
-    width: 15%;
-    margin-right:15px;
-    border-radius: 26%;
-    background-color: white;
-    box-shadow: -3px 3px rgba(0, 0, 0, 0.7);
-    transition: all 0.1s ease;
-}
-.company-logo:hover {
-    box-shadow: -6px 6px rgba(0, 0, 0, 0.7);
-    transform: translate(3px, -3px) rotate(0deg);
-}
 
 @media screen and (max-width: $phone-width) {
     .experience-container {

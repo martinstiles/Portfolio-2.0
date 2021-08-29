@@ -1,5 +1,6 @@
 import React from 'react'
 import "./experience.style.scss"
+import CompanyModal from '../companyModal/companyModal'
 import Capgemini from "../../../static/company_logos/capgemini.png"
 import Strise from "../../../static/company_logos/strise.jpeg"
 import NTNU from "../../../static/company_logos/ntnu_fit.png"
@@ -41,18 +42,24 @@ const Experience = ({education, itCompanies, otherCompanies}) => {
                 <p className="see-more"> Click to see more </p>
                 {
                     itCompanies.map(company_obj =>
-                        <img className="company-logo" src={itCompanyToImgMap[company_obj.company]} alt="..." />
+                        <CompanyModal
+                            image={itCompanyToImgMap[company_obj.company]}
+                            company={company_obj}
+                        />
                     )
                 }
             </section>
 
             {/* EXPERIENCE - IT */}
             <section className="animate__animated animate__fadeInRight">
-            <h2 className="title"> EXPERIENCE — OTHER </h2>
+                <h2 className="title"> EXPERIENCE — OTHER </h2>
                 <p className="see-more"> Click to see more </p>
                 {
                     otherCompanies.map(company_obj =>
-                        <img className="company-logo" src={otherCompanyToImgMap[company_obj.company]} alt="..." />
+                        <CompanyModal
+                            image={otherCompanyToImgMap[company_obj.company]}
+                            company={company_obj}
+                        />
                     )
                 }
             </section>

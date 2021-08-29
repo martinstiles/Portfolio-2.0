@@ -1,0 +1,147 @@
+@import "../../../static/variables";
+
+
+.modal {
+    animation: zoom-in 0.5s ease;
+    position: absolute;
+    width: 50%;
+    max-width: 900px;
+    height: fit-content;
+    max-height: 90%;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: $background-color;
+    border-radius: 5px;
+    border: none;
+    overflow: auto;
+}
+.modal:focus {
+    outline: none;
+}
+.modal::-webkit-scrollbar {
+    display: block;
+    background-color: $orange-light;
+    width: 8px;
+    overflow: auto;
+}
+
+.modal::-webkit-scrollbar-thumb {
+    background-color: $orange-dark;
+    border-radius: 10px;
+}
+
+.overlay {
+    background-color: rgba($color: #555, $alpha: 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    animation: darken 1s ease;
+}
+
+.company-logo {
+    opacity: 0.9;
+    width: calc(3em + 2vw);
+    height: auto;
+    margin-right:15px;
+    border-radius: 26%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 6px;
+    transition: all 0.1s ease;
+}
+.company-logo:hover {
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 2px 6px;
+    transform: translate(0px, -5px) rotate(0deg);
+}
+
+.company-logo-in-modal {
+    @extend .company-logo;
+    margin-right: 10px;
+    width: $h2-5-size;
+    height: $h2-5-size;
+}
+.company-logo-in-modal:hover {
+    box-shadow: none;
+    transform: none;
+}
+
+.modal-company-container {
+    width: 100%;
+    height: 100%;
+    padding: 2em;
+
+    animation: zoom-in-text 0.7s ease;
+    
+    .company-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: $font-libre;
+
+        img {
+            margin-left: 1em;
+            width: $h3-size;
+            height: $h3-size;
+        }
+        img:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+    }
+
+    .company-link {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        display: flex;
+        align-items: center;
+        color: $main-text-color;
+        font-family: $font-libre;
+        cursor: pointer;
+
+        h3 {
+            font-size: $h2-5-size;
+        }
+    }
+
+    .company-duration {
+        color: $weak-text-color;
+        font-style: italic;
+    }
+
+    .modal-description {
+        margin-top: 1em;
+        margin-bottom: 1.5em;
+    }
+}
+
+@media screen and (max-width: $phone-width) {
+    .modal {
+        width: 80%;
+    }
+}
+
+
+// ANIMATIONS
+
+@keyframes zoom-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes darken {
+    0% {background-color: rgba($color: #555, $alpha: 0);}
+    100% {background-color: rgba($color: #555, $alpha: 0.8);}
+}
+
+@keyframes zoom-in-text {
+    0% {transform: scale(0);}
+    100% {transform: scale(1);}
+}
