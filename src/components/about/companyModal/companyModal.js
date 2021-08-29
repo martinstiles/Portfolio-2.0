@@ -42,9 +42,9 @@ const CompanyModal = ({image, company}) => {
                     <p className="modal-description"> {company.description} </p> 
 
                     {
-                        company.technologies
+                        company.keyWords
                         &&
-                        <Tags tags={company.technologies} useRandomColors={true} />
+                        <Tags tags={company.keyWords} useRandomColors={true} />
                     }
                 </div>
             </Modal>
