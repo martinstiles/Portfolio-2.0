@@ -116,6 +116,16 @@
         margin-top: 1em;
         margin-bottom: 1.5em;
     }
+
+    .modal-links {
+        margin-bottom: 1em;
+        transform: translateY(-1em);
+        
+        a {
+            color: $orange-dark;
+            font-size: $p-size;
+        }
+    }
 }
 
 @media screen and (max-width: $phone-width) {

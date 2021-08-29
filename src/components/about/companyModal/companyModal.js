@@ -39,8 +39,20 @@ const CompanyModal = ({image, company}) => {
                         <h3 className="company-duration"> {company.duration} </h3>
                     </div>
 
-                    <p className="modal-description"> {company.description} </p> 
+                    <p className="modal-description"> {company.description} </p>
 
+                    {/* Optional additional links */}
+                    {
+                        company.additional_links
+                        &&
+                        <div className="modal-links">
+                            {
+                                company.additional_links.map(link => <a href={link.url} target="_blank" rel="noreferrer"> {link.alias} </a>)
+                            }
+                        </div>
+                    }
+
+                    {/* Keywords for IT companies */}
                     {
                         company.keyWords
                         &&

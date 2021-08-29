@@ -3,7 +3,6 @@ import React from 'react'
 import "./landingPageSVG.style.scss"
 
 const LandingPageSVG = () => {
-    // TODO: Smaller marginLeft for smaller screens! (media query)
     return (
         <div className="svg-container">
             <svg className="landing-page-svg" viewBox="0 0 955 681" fill="none" xmlns="http://www.w3.org/2000/svg">

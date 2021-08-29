@@ -18,9 +18,9 @@ const Tags = ({tags, animation = "", useRandomColors = false}) => {
                 tags.map(tag => {
                     return useRandomColors
                     ?
-                    <h3 style={{backgroundColor: getNextColor()}} className="tag"> #{tag} </h3>
+                    <h3 style={{backgroundColor: getNextColor()}} className="tag"> {tag} </h3>
                     :
-                    <h3 className="tag"> #{tag} </h3>
+                    <h3 className="tag"> {tag} </h3>
 
                 })
             }

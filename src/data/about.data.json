@@ -10,7 +10,7 @@
             "company": "capgemini",
             "name": "Capgemini",
             "job_title": "Software Developer Intern",
-            "duration": "June 2021 — August 2021",
+            "duration": "June 2021 — July 2021",
             "description": "For this internship I wanted to experience the consultant world. I worked, in cooperation with my team, on the development of a digital information center for Forsvarsbygg. The purpose of the project was to improve experience for the tenants of Forsvarsbygg and reduce the number of inquiries to their service center. From the work certificate I received: \"Throughout the project Martin has shown to be proficient in the programming languages and frameworks used. The solution delivered by the students provides an excellent foundation for the product that may soon be implemented.\"",
             "link": "https://www.capgemini.com/no-no/",
             "keyWords": ["APS.NET", "Figma", "Razor Pages", "CSS", "Episerver CMS", "Scrum", "Azure DevOps"]
@@ -20,7 +20,13 @@
             "name": "Strise",
             "job_title": "Software Developer Intern",
             "duration": "January 2020 — July 2020",
-            "description": "Interning as a front end developer. Strise aims to revolutionize enterprise software, and being a part of the team was a unique experience. I worked part time alongside my studies until May, and then continued as an intern during summer. My tasks naturally included a lot of bug squashing and refactoring, but also implementing new features and creating internal tools for efficiency. An example is making a Slack bot to add previews for links to the Strise products. You can read about that and more in a blogpost I wrote for Strise at this link.",
+            "description": "Interning as a front end developer. Strise aims to revolutionize enterprise software, and being a part of the team was a unique experience. I worked part time alongside my studies until May, and then continued as an intern during summer. My tasks naturally included a lot of bug squashing and refactoring, but also implementing new features and creating internal tools for efficiency. An example is making a Slack bot to add previews for links to the Strise products. You can read about that and more in a blogpost I wrote for Strise at the link below.",
+            "additional_links": [
+                {
+                    "alias": "Blogpost",
+                    "url": "https://medium.com/strise/maximizing-productivity-in-slack-and-why-we-made-our-own-bot-789e7ba77ed9"
+                }
+            ],
             "link": "https://strise.ai/",
             "keyWords": ["React", "TypeScript", "CSS", "GraphQL", "Git", "Scrum"]
         },
@@ -29,9 +35,15 @@
             "name": "NTNU",
             "job_title": "Learning Assistant",
             "duration": "January 2020 — May 2020",
-            "description": "Student assistant in the course TDT4145: Data Modelling and Database Systems. It was a great joy helping other students professionally. I often ended up spending more time than I was paid for, just for the fun of it.",
+            "description": "I was a student assistant in the course TDT4145: Data Modelling and Database Systems. It was a great joy helping other students professionally. I often ended up spending more time than I was paid for, just for the fun of it.",
+            "additional_links": [
+                {
+                    "alias": "Course website",
+                    "url": "https://www.ntnu.edu/studies/courses/TDT4145"
+                }
+            ],
             "link": "https://www.ntnu.no/idi",
-            "keyWords": ["Mentoring", "SQL", "ER diagrams", "Normalizing theory", "Recovery"]
+            "keyWords": ["Mentoring", "SQL", "System design", "ER diagrams", "Relational algebra", "Normalizing theory", "Recovery"]
         }
     ],
     "otherCompanies": [
