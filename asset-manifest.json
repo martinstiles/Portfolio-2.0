@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio-2.0/static/css/main.59183875.chunk.css",
-    "main.js": "/Portfolio-2.0/static/js/main.60344622.chunk.js",
-    "main.js.map": "/Portfolio-2.0/static/js/main.60344622.chunk.js.map",
+    "main.css": "/Portfolio-2.0/static/css/main.059c78d7.chunk.css",
+    "main.js": "/Portfolio-2.0/static/js/main.0f1a1fe6.chunk.js",
+    "main.js.map": "/Portfolio-2.0/static/js/main.0f1a1fe6.chunk.js.map",
     "runtime-main.js": "/Portfolio-2.0/static/js/runtime-main.d1c2db52.js",
     "runtime-main.js.map": "/Portfolio-2.0/static/js/runtime-main.d1c2db52.js.map",
-    "static/js/2.1a1b778e.chunk.js": "/Portfolio-2.0/static/js/2.1a1b778e.chunk.js",
-    "static/js/2.1a1b778e.chunk.js.map": "/Portfolio-2.0/static/js/2.1a1b778e.chunk.js.map",
+    "static/js/2.ce5e9dd0.chunk.js": "/Portfolio-2.0/static/js/2.ce5e9dd0.chunk.js",
+    "static/js/2.ce5e9dd0.chunk.js.map": "/Portfolio-2.0/static/js/2.ce5e9dd0.chunk.js.map",
     "index.html": "/Portfolio-2.0/index.html",
-    "static/css/main.59183875.chunk.css.map": "/Portfolio-2.0/static/css/main.59183875.chunk.css.map",
-    "static/js/2.1a1b778e.chunk.js.LICENSE.txt": "/Portfolio-2.0/static/js/2.1a1b778e.chunk.js.LICENSE.txt",
+    "static/css/main.059c78d7.chunk.css.map": "/Portfolio-2.0/static/css/main.059c78d7.chunk.css.map",
+    "static/js/2.ce5e9dd0.chunk.js.LICENSE.txt": "/Portfolio-2.0/static/js/2.ce5e9dd0.chunk.js.LICENSE.txt",
     "static/media/LinkedIn.44be9a63.svg": "/Portfolio-2.0/static/media/LinkedIn.44be9a63.svg",
     "static/media/Mail.ce216728.svg": "/Portfolio-2.0/static/media/Mail.ce216728.svg",
     "static/media/arrow_left.904b3000.svg": "/Portfolio-2.0/static/media/arrow_left.904b3000.svg",
     "static/media/arrow_right.5f9cce17.svg": "/Portfolio-2.0/static/media/arrow_right.5f9cce17.svg",
+    "static/media/close.6b4223bb.svg": "/Portfolio-2.0/static/media/close.6b4223bb.svg",
     "static/media/clusteringVisualizer.892a52f0.gif": "/Portfolio-2.0/static/media/clusteringVisualizer.892a52f0.gif",
     "static/media/dropdown.de5b193e.svg": "/Portfolio-2.0/static/media/dropdown.de5b193e.svg",
     "static/media/facebook.75ae785c.svg": "/Portfolio-2.0/static/media/facebook.75ae785c.svg",
@@ -26,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d1c2db52.js",
-    "static/js/2.1a1b778e.chunk.js",
-    "static/css/main.59183875.chunk.css",
-    "static/js/main.60344622.chunk.js"
+    "static/js/2.ce5e9dd0.chunk.js",
+    "static/css/main.059c78d7.chunk.css",
+    "static/js/main.0f1a1fe6.chunk.js"
   ]
 }
