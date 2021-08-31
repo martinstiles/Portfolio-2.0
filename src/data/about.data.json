@@ -1,5 +1,5 @@
 {
-    "tags": ["Frisbeegolf", "Bouldering", "Sushi", "Smash Bros", "NLP", "Philosophy", "Calisthenics", "Marvel"],
+    "tags": ["Smash Bros", "NLP", "Bouldering", "Marvel", "Calisthenics", "Sushi", "Frisbeegolf", "Philosophy"],
     "education": {
         "title": "Computer Science — NTNU",
         "duration": "(2017 — 2022)",
@@ -11,16 +11,16 @@
             "name": "Capgemini",
             "job_title": "Software Developer Intern",
             "duration": "June 2021 — July 2021",
-            "description": "For this internship I wanted to experience the consultant world. I worked, in cooperation with my team, on the development of a digital information center for Forsvarsbygg. The purpose of the project was to improve experience for the tenants of Forsvarsbygg and reduce the number of inquiries to their service center. From the work certificate I received: \"Throughout the project Martin has shown to be proficient in the programming languages and frameworks used. The solution delivered by the students provides an excellent foundation for the product that may soon be implemented.\"",
+            "description": "For the last internship during my studies I wanted to experience the world of consultants. I worked, in cooperation with my team, on the development of a digital information center for Forsvarsbygg. The purpose of the project was to improve experience for the tenants of Forsvarsbygg and reduce the number of inquiries to their service center. From the work certificate I received: \"Throughout the project Martin has shown to be proficient in the programming languages and frameworks used. The solution delivered by the students provides an excellent foundation for the product that may soon be implemented.\"",
             "link": "https://www.capgemini.com/no-no/",
-            "keyWords": ["APS.NET", "Figma", "Razor Pages", "CSS", "Episerver CMS", "Scrum", "Azure DevOps"]
+            "keyWords": ["ASP.NET", "Figma", "Razor Pages", "CSS", "Episerver CMS", "Scrum", "Azure DevOps"]
         },
         {
             "company": "strise",
             "name": "Strise",
             "job_title": "Software Developer Intern",
             "duration": "January 2020 — July 2020",
-            "description": "Interning as a front end developer. Strise aims to revolutionize enterprise software, and being a part of the team was a unique experience. I worked part time alongside my studies until May, and then continued as an intern during summer. My tasks naturally included a lot of bug squashing and refactoring, but also implementing new features and creating internal tools for efficiency. An example is making a Slack bot to add previews for links to the Strise products. You can read about that and more in a blogpost I wrote for Strise at the link below.",
+            "description": "This was my first \"real\" internship and I worked as a front-end developer. Strise aims to revolutionize enterprise software, and I could not have found a better place to start my IT career. I worked part time alongside my studies until May, and then continued as an intern during summer. My tasks naturally included a lot of bug squashing and refactoring, but also implementing new features and creating internal tools for efficiency. An example is making a Slack bot to add previews for links to the Strise products. You can read about that and more in a blogpost I wrote for Strise at the link below.",
             "additional_links": [
                 {
                     "alias": "Blogpost",
@@ -52,7 +52,7 @@
             "name": "NTNU",
             "job_title": "Teaching Mentor",
             "duration": "Oktober 2020 - August 2021",
-            "description": "Mentoring a student with a functional disability in the courses TMA4145 - Discrete Mathematics and TDT4113 - Programming Project.",
+            "description": "I was a mentor for a student with a functional disability in the courses \"TMA4145 - Discrete Mathematics\" and \"TDT4113 - Programming Project\".",
             "link": "https://innsida.ntnu.no/veiledning"
         },
         {
@@ -60,7 +60,7 @@
             "name": "Foodora",
             "job_title": "Rider",
             "duration": "March 2019 - November 2019",
-            "description": "Food delivery cyclist. A mix of exercise and income was a great combination for a part time job alongside the studies.",
+            "description": "I worked as a food delivery cyclist, aka \"rider\". Exercising while making money made this a good part time job alongside the studies.",
             "link": "https://www.foodora.com/"
         },
         {
@@ -68,7 +68,7 @@
             "name": "Me",
             "job_title": "Bartender",
             "duration": "June 2018 - July 2019",
-            "description": "Working part time as a bartender was a really fun experiece. And besides, being good at making drinks is a \"surprisingly\" useful skill.",
+            "description": "I worked part time as a bartender and it was a really fun experiece. And besides, being good at making drinks is a \"surprisingly\" useful skill.",
             "link": "https://www.facebook.com/menightclub/"
         },
         {
@@ -76,7 +76,7 @@
             "name": "Norwegian Army",
             "job_title": "Tactical Command Assistant",
             "duration": "July 2016 - July 2017",
-            "description": "One year in the Norwegian Air Defence Battalion, honing both self discipline and communication skills.",
+            "description": "I was in the Norwegian Air Defence Battalion for one year, honing both self discipline and communication skills.",
             "link": "https://www.forsvaret.no/om-forsvaret/organisasjon/luftforsvaret"
         }
     ]
