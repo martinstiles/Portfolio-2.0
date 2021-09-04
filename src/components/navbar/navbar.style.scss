@@ -2,7 +2,6 @@
 
 .navbar {
     position: relative;
-    // z-index: 2;
     width: 100%;
     height: $navbar-height;
     max-width: 1650px;
@@ -68,6 +67,7 @@
     .navbar {
         padding: 0 0;
         width: 90%;
+        z-index: 10;
 
         ul {
             display: none;
@@ -113,6 +113,12 @@
             div {
                 display: block;
             }
+        }
+
+        .navbarModal {
+            position: absolute;
+            border: none;
+            background-color: $background-color;
         }
     }
 }

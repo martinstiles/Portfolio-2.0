@@ -58,6 +58,7 @@ body::-webkit-scrollbar-thumb {
 // Common classes
 .main-container {
     @extend .flex-center;
+    position: relative;
     width: 100%;
     min-height: calc(100vh - 100px);
     padding: 3em;
