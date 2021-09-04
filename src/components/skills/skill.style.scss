@@ -1,0 +1,180 @@
+@import "../../static/variables";
+
+.skill {
+    position: relative;
+    display: flex;
+    width: 50%;
+    height: calc(200px + 10vw);
+    padding: 2em 3em;
+    background-color: #222;
+    color: white;
+
+    h1 {
+        z-index: 2;
+        position: relative;
+        opacity: 1;
+    }
+
+    .skill-content {
+        z-index: 2;
+        display: none;
+    }
+}
+.skill:hover {
+    animation: test 0.4s ease;
+    background-color: #555;
+    cursor: pointer;
+
+    h1 {
+        text-decoration: underline;
+    }
+}
+
+.skill.closed {
+    display: none;
+
+    h1 {
+        display: none;
+    }
+}
+
+.skill.open {
+    flex-direction: column;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    width: 100%;
+    height: calc(200px*2 + 10vw*2);
+    background-color: #222;
+    backdrop-filter: blur(6px);
+
+    .skill-content {
+        display: flex;
+    }
+}
+.skill.open:hover {
+    animation: none;
+
+    h1 {
+        text-decoration: none;
+    }
+}
+.skill.open::after {
+    // Blur image
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    backdrop-filter: blur(4px);
+}
+
+.before-base {
+    content: "";
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.4;
+}
+
+.skill-frontend {
+    @extend .skill;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.skill-frontend:before {
+    @extend .before-base;
+    background-image: url("../../static/skills_photos/frontend.jpeg");
+}
+
+.skill-backend {
+    @extend .skill;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.skill-backend:before {
+    @extend .before-base;
+    background-image: url("../../static/skills_photos/backend.jpeg");
+}
+
+
+.skill-data-analysis {
+    @extend .skill;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.skill-data-analysis:before {
+    @extend .before-base;
+    background-image: url("../../static/skills_photos/data_analysis.jpeg");
+}
+
+.skill-nlp {
+    @extend .skill;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.skill-nlp:before {
+    @extend .before-base;
+    background-image: url("../../static/skills_photos/nlp.jpeg");
+}
+
+
+// Ipad
+
+
+@media screen and (max-width: $ipad-width) {
+    .skill:hover {
+        animation: none;
+        background-color: #222;
+
+        h1 {
+            text-decoration: none;
+        }
+    }
+}
+
+
+// Phone
+
+
+@media screen and (max-width: $phone-width) {
+    .skill {
+        width: 100%;
+        height: calc(90px + 9vw);
+        padding: 1em 2em;
+    }
+    .skill.open {
+        height: calc(90px*4 + 9vw*4);
+    }
+    .skill-frontend {
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .skill-backend {
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .skill-data-analysis {
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .skill-nlp {
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
+
+
+
+// Animations
+
+
+@keyframes test {
+    from { background-color: #222; }
+    to { background-color: #555; }
+}
