@@ -1,11 +1,12 @@
 import React from 'react'
 import "./skill.style.scss"
+import SkillContent from './skillContent/skillContent'
 
-const Skill = ({ skill, name }) => {
+const Skill = ({ skill, name, description, technologies }) => {
     const skillToClassMap = {
         frontend: "skill-frontend",
         backend: "skill-backend",
-        data_analysis: "skill-data-analysis",
+        dataAnalysis: "skill-data-analysis",
         nlp: "skill-nlp"
     }
 
@@ -19,7 +20,7 @@ const Skill = ({ skill, name }) => {
 
         skillSections.forEach(skillSection => {
             // Checks if the classlists are the same
-            if(event.currentTarget.classList === skillSection.classList) {
+            if (event.currentTarget.classList === skillSection.classList) {
                 skillSection.classList.toggle("open");
             } else {
                 skillSection.classList.toggle("closed");
@@ -31,7 +32,10 @@ const Skill = ({ skill, name }) => {
         <div className={skillToClassMap[skill]} onClick={activeDivider}>
             <h1> {name} </h1>
             <div className="skill-content">
-                <p> Test </p>
+                <SkillContent
+                    description={description}
+                    technologies={technologies}
+                />
             </div>
         </div>
     )

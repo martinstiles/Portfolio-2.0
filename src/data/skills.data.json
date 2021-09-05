@@ -1,0 +1,28 @@
+{
+    "skillObjects": [
+        {
+            "skill": "frontend",
+            "name": "Frontend",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "technologies": ["React", "CSS", "SCSS", "HTML", "JQuery"]
+        },
+        {
+            "skill": "backend",
+            "name": "Backend",
+            "description": "Coming soon",
+            "technologies": []
+        },
+        {
+            "skill": "dataAnalysis",
+            "name": "Data analysis",
+            "description": "Coming soon",
+            "technologies": []
+        },
+        {
+            "skill": "nlp",
+            "name": "NLP",
+            "description": "Coming soon",
+            "technologies": []
+        }
+    ]
+}

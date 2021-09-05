@@ -1,0 +1,45 @@
+@import "../../../static/variables";
+
+.skill-content-container {
+    margin-top: 1em;
+
+
+    h3 {
+        margin-top: 1.5em;
+    }
+
+    div {
+        margin-top: 1em;
+        width: 50%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 0.5em;
+
+        p {
+            margin-right: 1em;
+        }
+    }
+}
+
+@media screen and (max-width: $ipad-width) {
+    .skill-content-container {
+        margin-top: 0.3em;
+
+        h3 {
+            margin-top: 1em;
+        }
+
+        div {
+            margin-top: 0.5em;
+            width: 70%;
+        }
+    }
+}
+
+@media screen and (max-width: $phone-width) {
+    .skill-content-container {
+        div {
+            width: 100%;
+        }
+    }
+}

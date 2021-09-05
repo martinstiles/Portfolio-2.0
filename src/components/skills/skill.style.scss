@@ -8,6 +8,7 @@
     padding: 2em 3em;
     background-color: #222;
     color: white;
+    overflow: auto;
 
     h1 {
         z-index: 2;
@@ -21,7 +22,7 @@
     }
 }
 .skill:hover {
-    animation: test 0.4s ease;
+    animation: lighten-up 0.4s ease;
     background-color: #555;
     cursor: pointer;
 
@@ -45,7 +46,6 @@
     width: 100%;
     height: calc(200px*2 + 10vw*2);
     background-color: #222;
-    backdrop-filter: blur(6px);
 
     .skill-content {
         display: flex;
@@ -66,7 +66,7 @@
     right: 0px;
     bottom: 0px;
     left: 0px;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(7px);
 }
 
 .before-base {
@@ -146,10 +146,11 @@
     .skill {
         width: 100%;
         height: calc(90px + 9vw);
-        padding: 1em 2em;
+        padding: 1em 3em;
     }
     .skill.open {
         height: calc(90px*4 + 9vw*4);
+        padding: 1em 1.5em;
     }
     .skill-frontend {
         justify-content: flex-start;
@@ -174,7 +175,7 @@
 // Animations
 
 
-@keyframes test {
+@keyframes lighten-up {
     from { background-color: #222; }
     to { background-color: #555; }
 }
