@@ -3,6 +3,16 @@
 .skill-content-container {
     margin-top: 1em;
 
+    a {
+        position: relative;
+        margin-top: 1em;
+        color: $orange;
+        text-decoration: none;
+        display: inline-block;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
 
     h3 {
         margin-top: 1.5em;
@@ -10,7 +20,7 @@
 
     div {
         margin-top: 1em;
-        width: 50%;
+        width: 60%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         row-gap: 0.5em;
@@ -25,13 +35,18 @@
     .skill-content-container {
         margin-top: 0.3em;
 
+        a {
+            margin-top: 0.5em;
+        }
+
         h3 {
             margin-top: 1em;
         }
 
         div {
             margin-top: 0.5em;
-            width: 70%;
+            grid-template-columns: 1fr 1fr 1fr;
+            width: 80%;
         }
     }
 }
@@ -40,6 +55,14 @@
     .skill-content-container {
         div {
             width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: $phone-width-small) {
+    .skill-content-container {
+        div {
+            grid-template-columns: 1fr 1fr;
         }
     }
 }

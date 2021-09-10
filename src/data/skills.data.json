@@ -3,26 +3,32 @@
         {
             "skill": "frontend",
             "name": "Frontend",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "technologies": ["React", "CSS", "SCSS", "HTML", "JQuery"]
+            "description": "I think frontend is fun and I enjoy the visual element of it. I have gained a lot of experience with frontend through school projects, personal projects and internships. HOWEVER, frontend is not a field that I aim to become an expert in. I just consider it a powerfull tool to visualize ideas or create a good customer experience.",
+            "technologies": ["JS", "React", "CSS", "SCSS", "HTML", "JQuery", "Figma", "SVG", "Canvas", "Redux", "AJAX"]
         },
         {
             "skill": "backend",
             "name": "Backend",
-            "description": "Coming soon",
-            "technologies": []
+            "description": "I do wish I had more experience with different backend technologies. My go-to is making REST APIs with Expres (node.js) using either a MongoDB or an SQL database. It must be mentioned that my line of study puts a huge emphasis on the theory behind database systems, datawarehouses and cloud technologies.",
+            "technologies": ["SQL", "MongoDB", "Django", "Node.js", "Express", "MongoDB Atlas"]
         },
         {
             "skill": "dataAnalysis",
             "name": "Data analysis",
-            "description": "Coming soon",
-            "technologies": []
+            "description": "By \"data analysis\" I am referring to the entire process of extracting useful insights from data, of which I am quite familiar with; data extraction, data preprocessing, data processing (model training), evaluation and hyperparameter tuning. This I've learned from school projects and online courses. Below I have also included keywords regarding big data, as I have some experience with it from university.",
+            "technologies": ["Machine learning", "Deep learning", "Python", "Keras", "Tensorflow 2", "Scikit-learn", "Matplotlib", "Pandas", "BS4", "Selenium"],
+            "links": [
+                {
+                    "name": "Certificate - Build Deep Learning Models with TensorFlow",
+                    "url": "https://www.codecademy.com/profiles/martinStiles1960620100/certificates/5f85c4b9c431a800138a60e0"
+                }
+            ]
         },
         {
             "skill": "nlp",
             "name": "NLP",
-            "description": "Coming soon",
-            "technologies": []
+            "description": "I found a passion for NLP during a class I had in the fourth year of my computer science degree, which ultimately led to me writing a master thesis on this subject. The topic for the thesis is \"computational linguistic creativity\", and I am currently in the midst of narrowing it down to a more specific task. I will update this section as I progress.",
+            "technologies": ["RNN", "GRU", "LSTM", "NLTK", "Spacy", "Transformers", "Semantics", "Semtiment", "Summarization", "Chatbot", "Bert", "GPT-3"]
         }
     ]
 }

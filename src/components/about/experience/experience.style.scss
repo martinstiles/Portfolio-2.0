@@ -28,9 +28,10 @@
     margin-bottom: 10px;
 }
 
-
 @media screen and (max-width: $phone-width) {
     .experience-container {
+        padding-left: 10%;
+        padding-right: 10%;
         width: 90%;
         margin-top: 2.5em;
     }
@@ -42,5 +43,12 @@
     .education-container {
         max-width: 100%;
         width: 100%;
+    }
+}
+
+@media screen and (max-width: $phone-width-small) {
+    .experience-container {
+        padding-left: 0;
+        padding-right: 0;
     }
 }

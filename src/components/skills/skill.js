@@ -2,7 +2,7 @@ import React from 'react'
 import "./skill.style.scss"
 import SkillContent from './skillContent/skillContent'
 
-const Skill = ({ skill, name, description, technologies }) => {
+const Skill = ({ skill, name, description, technologies, links }) => {
     const skillToClassMap = {
         frontend: "skill-frontend",
         backend: "skill-backend",
@@ -35,6 +35,7 @@ const Skill = ({ skill, name, description, technologies }) => {
                 <SkillContent
                     description={description}
                     technologies={technologies}
+                    links={links}
                 />
             </div>
         </div>

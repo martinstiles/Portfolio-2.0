@@ -14,6 +14,7 @@ const Skills = () => {
                             name={skillObject.name}
                             description={skillObject.description}
                             technologies={skillObject.technologies}
+                            links={skillObject.links}
                         />
                     )
                 }
