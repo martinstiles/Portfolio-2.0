@@ -21,23 +21,23 @@ const App = () => {
         </div>
 
         <Switch>
-          <Route path="/Portfolio-2.0/about">
+          <Route path="/portfolio2.0/about">
             <About />
           </Route>
 
-          <Route path="/Portfolio-2.0/contact">
+          <Route path="/portfolio2.0/contact">
             <Contact />
           </Route>
 
-          <Route path="/Portfolio-2.0/Projects">
+          <Route path="/portfolio2.0/Projects">
             <Projects />
           </Route>
 
-          <Route path="/Portfolio-2.0/skills">
+          <Route path="/portfolio2.0/skills">
             <Skills />
           </Route>
 
-          <Route path="/Portfolio-2.0">
+          <Route path="/portfolio2.0">
             <Home />
           </Route>
 
