@@ -3,13 +3,13 @@
         {
             "skill": "frontend",
             "name": "Frontend",
-            "description": "I think frontend is fun and I enjoy the visual element of it. I have gained a lot of experience with frontend through school projects, personal projects and internships. HOWEVER, frontend is not a field that I aim to become an expert in. I just consider it a powerfull tool to visualize ideas or create a good customer experience.",
+            "description": "I think frontend is fun and I enjoy the visual element of it. I have gained a lot of experience with frontend through school projects, personal projects and internships. HOWEVER, frontend is not a field that I aim to become an expert in. I just consider it to be a powerful tool to visualize ideas or create a good customer experience.",
             "technologies": ["JS", "React", "CSS", "SCSS", "HTML", "JQuery", "Figma", "SVG", "Canvas", "Redux", "AJAX"]
         },
         {
             "skill": "backend",
             "name": "Backend",
-            "description": "I do wish I had more experience with different backend technologies. My go-to is making REST APIs with Expres (node.js) using either a MongoDB or an SQL database. It must be mentioned that my line of study puts a huge emphasis on the theory behind database systems, datawarehouses and cloud technologies.",
+            "description": "I do wish I had more experience with different backend technologies. My go-to is making REST APIs with Express (node.js) using either a MongoDB or an SQL database. It must be mentioned that my line of study puts a huge emphasis on the theory behind database systems, datawarehouses and cloud technologies.",
             "technologies": ["SQL", "MongoDB", "Django", "Node.js", "Express", "MongoDB Atlas"]
         },
         {
