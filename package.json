@@ -5,18 +5,18 @@
   "homepage": "https://martinstiles.github.io/portfolio2.0/",
   "dependencies": {
     "animate.css": "^4.1.1",
-    "node-sass": "^6.0.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-modal": "^3.14.3",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.2"
+    "node-sass": "^9.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-modal": "^3.16.1",
+    "react-router-dom": "^6.21.1",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^3.5.1"
   },
   "devDependencies": {
-    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react": "^7.33.2",
     "file-loader": "^6.2.0",
-    "gh-pages": "^3.2.3",
+    "gh-pages": "^6.1.1",
     "url-loader": "^4.1.1"
   },
   "scripts": {
