@@ -18,6 +18,8 @@ const Navbar = () => {
 
     const getDropdownLinkClass = (route) => isCurrentRoute(route) ? "active-dropdown-link" : "inactive-dropdown-link"
 
+    let key = 0
+
     return (
         <div className="navbar animate__animated animate__fadeInDown">
 
@@ -26,7 +28,7 @@ const Navbar = () => {
             <ul>
                 {
                     Data["routes"].map(({value, route}) =>
-                        <div>
+                        <div key={key++}>
                             <Link className={getNavbarLinkClass(route)} to={route}> {value} </Link>
                         </div>
                     )
@@ -38,7 +40,7 @@ const Navbar = () => {
                 <div>
                     {
                         Data["routes"].map(({value, route}) =>
-                            <Link className={getDropdownLinkClass(route)} to={route}> { value } </Link>
+                            <Link className={getDropdownLinkClass(route)} to={route} key={key++}> { value } </Link>
                         )
                     }
                 </div>

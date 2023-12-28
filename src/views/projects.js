@@ -1,14 +1,14 @@
 import React, { useState,} from 'react'
 import '../style.scss'
+import { useParams } from "react-router-dom"
 import Data from "../data/projects.data.json"
 import Project from '../components/projects/project'
 import ProjectNavButtons from '../components/projects/projectNavButton/projectNavButtons'
 
 const Projects = () => {
-    const lastPartOfUrl = window.location.href.split("/")[window.location.href.split("/").length - 1]
-    const lastPartOfUrlIsNumber = !isNaN(lastPartOfUrl) && lastPartOfUrl !== ""
+    let params = useParams()
 
-    const [projectIndex ,setProjectIndex] = useState(lastPartOfUrlIsNumber ? parseInt(lastPartOfUrl) : 1)
+    const [projectIndex ,setProjectIndex] = useState(parseInt(params.projectIndex))
     const numProjects = Data.projectObjects.length
 
     const currentProject = Data.projectObjects[projectIndex - 1]  // cuz it's 1-indexed

@@ -1,7 +1,7 @@
 import './style.scss';
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route
 } from "react-router-dom";
 
@@ -20,28 +20,19 @@ const App = () => {
           <Navbar />
         </div>
 
-        <Switch>
-          <Route path="/portfolio2.0/about">
-            <About />
+        <Routes>
+          <Route path="/portfolio2.0/about" element={<About/>} />
+
+          <Route path="/portfolio2.0/contact" element={<Contact/>} />
+
+          <Route path="/portfolio2.0/Projects" element={<Projects/>}>
+            <Route path=":projectIndex" element={<Projects/>} />
           </Route>
 
-          <Route path="/portfolio2.0/contact">
-            <Contact />
-          </Route>
+          <Route path="/portfolio2.0/skills" element={<Skills/>} />
 
-          <Route path="/portfolio2.0/Projects">
-            <Projects />
-          </Route>
-
-          <Route path="/portfolio2.0/skills">
-            <Skills />
-          </Route>
-
-          <Route path="/portfolio2.0">
-            <Home />
-          </Route>
-
-        </Switch>
+          <Route path="/portfolio2.0" element={<Home/>} />
+        </Routes>
       </div>
     </Router>
   );

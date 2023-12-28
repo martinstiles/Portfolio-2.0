@@ -14,6 +14,8 @@ const CompanyModal = ({image, company}) => {
         setIsOpen(false)
     }
 
+    let key = 0
+
     return (
         <>
             <img onClick={openModal} className="company-logo" src={image} alt="..." />
@@ -23,6 +25,7 @@ const CompanyModal = ({image, company}) => {
                 isOpen={isOpen}
                 onRequestClose={closeModal}
                 contentLabel="Example Modal"
+                appElement={document.getElementById('app')}
             >
                 <div className="modal-company-container">
                     <div>
@@ -47,7 +50,7 @@ const CompanyModal = ({image, company}) => {
                         &&
                         <div className="modal-links">
                             {
-                                company.additional_links.map(link => <a href={link.url} target="_blank" rel="noreferrer"> {link.alias} </a>)
+                                company.additional_links.map(link => <a href={link.url} target="_blank" rel="noreferrer" key={key++}> {link.alias} </a>)
                             }
                         </div>
                     }

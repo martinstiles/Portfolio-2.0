@@ -12,15 +12,17 @@ const Tags = ({tags, animation = "", useRandomColors = false}) => {
         return nextColor
     }
 
+    let key = 0
+
     return (
         <div className={`tag-container animate__animated ${animation}`}>
             {
                 tags.map(tag => {
                     return useRandomColors
                     ?
-                    <h3 style={{backgroundColor: getNextColor()}} className="tag"> {tag} </h3>
+                    <h3 style={{backgroundColor: getNextColor()}} className="tag" key={key++}> {tag} </h3>
                     :
-                    <h3 className="tag"> {tag} </h3>
+                    <h3 className="tag" key={key++}> {tag} </h3>
 
                 })
             }
