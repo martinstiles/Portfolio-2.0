@@ -24,9 +24,9 @@ const Hi = () => {
             </h1>
             <br />
             <br />
-            <h1 id="s1"> 🧑🏼‍🎓 CS Student </h1>
+            <h1 id="s1"> 🧑🏼‍🎓 ML Engineer </h1>
             <h1 id="s2"> 🌍 Web Developer </h1>
-            <h1 id="s3"> 🤖 AI Enthusiast </h1>
+            <h1 id="s3"> 🤖 NLP Enthusiast </h1>
         </div>
     )
 }
