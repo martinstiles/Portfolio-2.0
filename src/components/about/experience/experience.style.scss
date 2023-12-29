@@ -2,6 +2,10 @@
 
 .experience-container {
     width: 50%;
+    
+    b {
+        color: $orange-dark;
+    }
 }
 
 .margin-bottom {
@@ -26,6 +30,17 @@
     color: $weak-text-color;
     font-style: italic;
     margin-bottom: 10px;
+}
+
+.modal-links {
+    a {
+        color: $orange-dark;
+        font-size: $p-size;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
 }
 
 @media screen and (max-width: $phone-width) {

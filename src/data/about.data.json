@@ -3,22 +3,72 @@
     "education": {
         "title": "Computer Science — NTNU",
         "duration": "(2017 — 2022)",
-        "description": "A 5 years integrated master's degree at the Norwegian University of Science and Technology. I'm specializing in database systems, search engines and AI. I will finish the degree in spring 2022."
+        "description": "An integrated master's degree at the Norwegian University of Science and Technology (NTNU). I specialized in database systems, search engines and AI, as well as choosing some web development courses. Towards the end I found a passion for NLP, and ended up writing a master's thesis on automatic news summarization. In short: I used GPT before it was cool 😎",
+        "links": [
+            {
+                "alias": "My master's thesis - GitHub",
+                "url": "https://github.com/martinstiles/masters-thesis/blob/main/Martin_Stiles_Master_2022.pdf"
+            }
+        ]
     },
+    "consultantProjects": [
+        {
+            "company": "nb",
+            "name": "Norges Bank",
+            "job_title": "ML Engineer",
+            "duration": "Nov 2023 —",
+            "description": "Making a PoC for a time series prediction tool — with support for vast ensemble models. The focus is on explainability and ease of use.",
+            "link": "https://www.norges-bank.no/",
+            "keyWords": [
+              "Python",
+              "R",
+              "Azure Machine Learning",
+              "Time Series",
+              "Ensemble models",
+              "MLflow",
+              "Git",
+              "Scrum"
+            ]
+        },
+        {
+            "company": "difa",
+            "name": "Difa",
+            "job_title": "Platform Engineer",
+            "duration": "Jan 2023 — Sep 2023",
+            "description": "Difa ensures that the Norwegian pharmacies gets a secure and cost-efficient cloud-based industry solution. My responsibilities mostly consisted of developing Python/Bash scripts to automate repetitive processes. We leveraged Jenkins to facilitate scheduled tasks, and Cloud Foundry and BOSH for deploying and monitoring applications and services. I was also responsible for automating the migration of multiple Hashicorp Vault instances into a unified cluster.",
+            "link": "https://www.apotek.no/om-oss/datterselskap",
+            "keyWords": [
+              "Python",
+              "Bash",
+              "BOSH",
+              "Cloud Foundry",
+              "Jenkins",
+              "Git",
+              "Kanban"
+            ]
+        },
+        {
+            "company": "ayfie",
+            "name": "Ayfie",
+            "job_title": "Software Developer - Ayfie",
+            "duration": "Oct 2022 — Jan 2023",
+            "description": "I assisted Ayfie in their transformational cloud journey. I contributed to the refactoring of the codebase from .NET Framework to .NET Core. This ultimately lead to improved performance, reduced costs, and laid the groundwork for future development.",
+            "link": "https://www.ayfie.com/",
+            "keyWords": [
+              ".NET Core",
+              ".NET Framework",
+              "Docker",
+              "Jenkins",
+              "Git",
+              "Kanban"
+            ]
+        }
+    ],
     "internships": [
         {
             "company": "capgemini",
             "name": "Capgemini",
-            "job_title": "Cloud Engineer - Ayfie",
-            "duration": "August 2021 — July 2021",
-            "description": "For my \"last ever summer internship\" I wanted to experience the life of a software consultant. My team and I worked on the development of a digital information center for our customer: Forsvarsbygg. The purpose of the project was to improve the online experience for the tenants of Forsvarsbygg and reduce the number of inquiries to their service center. Following is a quote from the work certificate I got: \"Throughout the project Martin has shown to be proficient in the programming languages and frameworks used. The solution delivered by the students provides an excellent foundation for the product that may soon be implemented.\"",
-            "link": "https://www.capgemini.com/no-no/",
-            "keyWords": ["ASP.NET", "Figma", "Razor Pages", "CSS", "Episerver CMS", "Scrum", "Azure DevOps"]
-        },
-        {
-            "company": "capgemini",
-            "name": "Capgemini",
-            "job_title": "Software Developer Intern",
+            "job_title": "Summer Intern",
             "duration": "June 2021 — July 2021",
             "description": "For my \"last ever summer internship\" I wanted to experience the life of a software consultant. My team and I worked on the development of a digital information center for our customer: Forsvarsbygg. The purpose of the project was to improve the online experience for the tenants of Forsvarsbygg and reduce the number of inquiries to their service center. Following is a quote from the work certificate I got: \"Throughout the project Martin has shown to be proficient in the programming languages and frameworks used. The solution delivered by the students provides an excellent foundation for the product that may soon be implemented.\"",
             "link": "https://www.capgemini.com/no-no/",
@@ -38,6 +88,32 @@
             ],
             "link": "https://strise.ai/",
             "keyWords": ["React", "TypeScript", "CSS", "GraphQL", "Git", "Scrum"]
+        }
+    ],
+    "certifications": [
+        {
+            "name": "Build Deep Learning Models with TensorFlow Skill Path",
+            "link": "https://www.codecademy.com/profiles/martinStiles1960620100/certificates/5f85c4b9c431a800138a60e0"
+        },
+        {
+            "name": "Microsoft Certified: Azure Fundamentals",
+            "link": "https://www.credly.com/badges/d3bd8a06-6a77-44da-b6e7-3a5e10799f82/linked_in_profile"
+        },
+        {
+            "name": "AWS Certified Cloud Practitioner",
+            "link": "https://www.credly.com/badges/3b2d74de-5521-49c6-9f44-2f4d21f90c69/public_url"
+        },
+        {
+            "name": "GCP Cloud Digital Leader",
+            "link": "https://www.credential.net/06eb99da-93e7-4c9f-8b3e-1bbc0eff83e6?key=fe91ae385b19ac316a25de7182c19b8090825cdeaf8acdf7691778e9202b5891"
+        },
+        {
+            "name": "HashiCorp Certified: Terraform Associate (002)",
+            "link": "https://www.credly.com/badges/16175a36-baa5-4353-b5e4-448ff9102f4b/linked_in_profile"
+        },
+        {
+            "name": "Tools for Data Science",
+            "link": "https://www.credly.com/badges/2fd0d532-362c-47d8-8814-7ef8cd86936b/public_url"
         }
     ],
     "other": [

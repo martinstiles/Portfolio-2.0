@@ -6,20 +6,20 @@ import Tags from '../components/common/tags/tags'
 import Experience from '../components/about/experience/experience'
 
 const About = () => {
-    const tagAnimation = window.innerWidth <= 900 ? "animate__fadeInRight" : "animate__fadeInUp"
-
     return (
-        <div className="main-container">
+        <div className="main-container-start">
             <div className="about-container">
-                    <Image />
-                <div className="about-tag-container">
+                <Image />
+                {/* <div className="about-tag-container">
                     <Tags tags={Data.tags} animation={tagAnimation} />
-                </div>
+                </div> */}
             </div>
             <Experience
+                consultantProjects={Data.consultantProjects}
                 education={Data.education}
-                itCompanies={Data.itCompanies}
-                otherCompanies={Data.otherCompanies}
+                certifications={Data.certifications}
+                internships={Data.internships}
+                other={Data.other}
             />
         </div>
     )
