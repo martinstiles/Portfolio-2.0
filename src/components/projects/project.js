@@ -3,12 +3,14 @@ import "./project.style.scss"
 import NewTab from "../../static/new_tab.svg"
 import Tags from "../common/tags/tags"
 import ClusteringVizualiser from "../../static/project_img/clusteringVisualizer.gif"
+import StreamlitApp from "../../static/project_img/streamlitApp.png"
 import PathfindingVizualiser from "../../static/project_img/pathfindingVisualizer.gif"
 import SortingVizualiser from "../../static/project_img/sortingVisualizer.gif"
 
 const Project = ({ name, description, link, tags }) => {
     const nameToImgMap = {
         "Clustering Visualizer": ClusteringVizualiser,
+        "Streamlit Application": StreamlitApp,
         "Pathfinding Visualizer": PathfindingVizualiser,
         "Sorting Visualizer": SortingVizualiser
     }

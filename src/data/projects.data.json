@@ -7,6 +7,12 @@
             "link": "https://martinstiles.github.io/pathfinding-visualizer/"
         },
         {
+            "name": "Streamlit Application",
+            "description": "The goal is to have a simple RAG chatbot (with a streamlit interface) that can answer questions about your own data. The OpenAI API is used to do the heavy lifting, i.e., the transformer-related tasks: embed data and generate a response based on a prompt.",
+            "tags": ["ChatGPT", "RAG", "Langchain", "Streamlit"],
+            "link": "https://github.com/martinstiles/RAG-Streamlit-Chatbot"
+        },
+        {
             "name": "Clustering Visualizer",
             "description": "This is oretty much the same as the pathfinding visualizer, except with clustering algorithms. Visualizing the algorithms while they were running turned out to be harder than expected, and thus I've currently set everything to run instantly. I might update this with more algorithms and actual visualization later.",
             "tags": ["Algorithms", "K-means", "DBSCAN", "React"],
