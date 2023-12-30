@@ -8,7 +8,7 @@ const Navbar = () => {
     const location = useLocation()
 
     const isCurrentRoute = (route) => {
-        if (route === "/portfolio2.0/projects/1/" && location.pathname.split("/")[2] === "projects") {
+        if (route === "/projects/1/" && location.pathname.split("/")[1] === "projects") {
             return true
         }
         return route === location.pathname

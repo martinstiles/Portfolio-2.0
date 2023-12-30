@@ -2,7 +2,7 @@ import React from 'react'
 import '../style.scss'
 import Data from "../data/about.data.json"
 import Image from '../components/about/imageComponent/image'
-import Tags from '../components/common/tags/tags'
+// import Tags from '../components/common/tags/tags'
 import Experience from '../components/about/experience/experience'
 
 const About = () => {

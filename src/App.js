@@ -1,8 +1,8 @@
 import './style.scss';
 import {
-  BrowserRouter as Router,
   Routes,
-  Route
+  Route,
+  HashRouter
 } from "react-router-dom";
 
 import Navbar from './components/navbar/navbar'
@@ -14,27 +14,27 @@ import Skills from './views/skills';
 
 const App = () => {
   return (
-    <Router>
+    <HashRouter>
       <div className="App">
         <div>
           <Navbar />
         </div>
 
         <Routes>
-          <Route path="/portfolio2.0/about" element={<About/>} />
+          <Route path="/about" element={<About/>} />
 
-          <Route path="/portfolio2.0/contact" element={<Contact/>} />
+          <Route path="/contact" element={<Contact/>} />
 
-          <Route path="/portfolio2.0/Projects" element={<Projects/>}>
+          <Route path="/Projects" element={<Projects/>}>
             <Route path=":projectIndex" element={<Projects/>} />
           </Route>
 
-          <Route path="/portfolio2.0/skills" element={<Skills/>} />
+          <Route path="/skills" element={<Skills/>} />
 
-          <Route path="/portfolio2.0" element={<Home/>} />
+          <Route path="/" element={<Home/>} />
         </Routes>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
