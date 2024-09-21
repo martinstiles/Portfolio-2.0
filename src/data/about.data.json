@@ -1,5 +1,12 @@
 {
-    "tags": ["Smash Bros", "NLP", "Bouldering", "Marvel", "Calisthenics", "Sushi", "Frisbeegolf", "Philosophy"],
+    "tags": [
+        "Bouldering",
+        "Gen AI",
+        "Gaming",
+        "Calisthenics",
+        "Frisbeegolf",
+        "Smash Bros"
+    ],
     "education": {
         "title": "Computer Science — NTNU",
         "duration": "(2017 — 2022)",

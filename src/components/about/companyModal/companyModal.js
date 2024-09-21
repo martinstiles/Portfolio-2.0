@@ -15,7 +15,6 @@ const CompanyModal = ({image, company}) => {
     }
 
     let key = 0
-
     return (
         <>
             <img onClick={openModal} className="company-logo" src={image} alt="..." />

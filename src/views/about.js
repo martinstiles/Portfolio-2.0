@@ -11,7 +11,7 @@ const About = () => {
             <div className="about-container">
                 <Image />
                 {/* <div className="about-tag-container">
-                    <Tags tags={Data.tags} animation={tagAnimation} />
+                    <Tags tags={Data.tags} animation={"animate__fadeInLeft"} />
                 </div> */}
             </div>
             <Experience

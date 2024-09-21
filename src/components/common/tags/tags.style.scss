@@ -1,13 +1,15 @@
 @import "../../../static/_variables";
 
 .tag-container {
+    margin-top: 15px;
     display: flex;
     flex-wrap: wrap;
+    // justify-content: center;
 }
 
 .tag {
-    font-size: calc(0.6em + 0.8vw);
-    margin: 0 14px 16px 0;
+    font-size: calc(0.6em + 0.7vw);
+    margin: 0 14px 15px 0;
     padding: 2px 7px;
     border-radius: 3px;
     background-color: $green;
